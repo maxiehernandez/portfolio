@@ -1,0 +1,158 @@
+#name{
+  color: white;
+  margin-top: 0;
+  font-size: 9vh;
+  text-shadow:
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+#darken{
+  background:rgba(0,0,0,.2);
+}
+.section{
+
+  height: 100vh;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+#header{
+  text-align: center;
+  background-image: url("http://cdn2.editmysite.com/images/editor/theme-background/stock/Table-Conversation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#about{
+    background-color: rgb(142, 226, 188);
+}
+#resume{
+    background-color: rgb(142, 226, 188);
+}
+#work{
+    background-color: rgb(142, 226, 188);
+}
+#contact{
+    background-color: rgb(142, 226, 188);
+}
+
+
+  #header-top{
+    height: 40vh;
+  }
+  #header-mid{
+    height: 20vh;
+  }
+  #header-bottom{
+    height: 40vh;
+  }
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+li{
+  display: inline;
+  padding-right: .5vw;
+  padding-left: .5vw;
+  text-shadow:
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+li a:hover{
+  text-decoration: underline;
+  color: rgb(142, 226, 188);
+}
+
+ul{
+  padding: 0;
+}
+
+#header-top-left{
+  width: 83vw;
+  height: 25vh;
+  float: left;
+}
+
+#header-top-right{
+  text-align: left;
+  width: 17vw;
+  height: 25vh;
+  float:left;
+}
+
+#github-logo{
+  padding-top: 1vh;
+  height: 3vw;
+  opacity: .8;
+}
+
+#github-logo:hover{
+  opacity: 1;
+}
+
+#linkedin-logo{
+  padding-top: 1vh;
+  height: 3vw;
+  opacity: .8;
+}
+#linkedin-logo:hover{
+  opacity: 1;
+}
+
+#email-logo{
+  padding-top: 1vh;
+  height: 3vw;
+  opacity: .8;
+}
+#email-logo:hover{
+  opacity: 1;
+}
+#about-top{
+  height: 20vh;
+  background:rgba(255,255,255,.85);
+  text-align: center;
+
+}
+#about-bottom{
+  height: 80vh;
+}
+#about-top h1{
+  color: rgb(142, 226, 188);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 6vh;
+  padding-top: 3.5vh;
+}
+#about-top p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#about-bottom-right{
+  width: 45vw;
+  height: 80vh;
+  float: left;
+  padding-right: 5vw;
+  padding-top: 8vh;
+  font-size: 2.2vh;
+}
+#about-bottom-right a{
+    font-size: 2.3vh;
+}
+#about-bottom-left{
+  width: 50vw;
+  height: 80vh;
+  float: left;
+}
+#maxiepic{
+  width: 20vw;
+  padding-left: 12vw;
+  padding-top: 20vh;
+}
