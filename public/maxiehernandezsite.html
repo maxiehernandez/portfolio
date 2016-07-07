@@ -5,6 +5,7 @@
     <title>Maxie Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="portfolio.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   </head>
   <body>
     <div class="section" id="header">
@@ -13,9 +14,9 @@
           <div id="header-top-left">
           </div>
           <div id="header-top-right">
-            <a href="https://github.com/maxiehernandez" target="_blank"><img id="github-logo" src="assets/GitHub-Mark-120px-plus.png" alt="github link"> </a>
-            <a href="https://www.linkedin.com/in/maxie" target="_blank"><img id="linkedin-logo" src="assets/In-2C-128px-TM.png" alt="github link"> </a>
-            <a href="mailto:maxinehernandez@hotmail.com" target="_blank"><img id="email-logo" src="assets/Mail_iOS.png" alt="github link"> </a>
+            <a href="https://github.com/maxiehernandez" target="_blank"><i class="fa fa-github fa-2x" id="github-logo" aria-hidden="true" alt="github link"></i></a>
+            <a href="https://www.linkedin.com/in/maxie" target="_blank"> <i id="linkedin-logo" alt="linkedin logo" class="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
+            <a href="mailto:maxinehernandez@hotmail.com" target="_blank"> <i id="email-logo" alt="email logo" class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> </a>
           </div>
         </div>
         <div id="header-mid">
@@ -23,8 +24,8 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Résumé​</a></li>
+          <!--  <li><a href="#work">Work</a></li> !-->
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -43,7 +44,7 @@
         </div>
         <div id="about-bottom-right">
 
-          <p>In a <a target="_blank" href="https://www.youtube.com/watch?v=2E6uGkotqKA"> nutshell:</a><br>
+          <p>In a <a id="nutshell" target="_blank" href="https://www.youtube.com/watch?v=2E6uGkotqKA"> nutshell:</a><br>
               After graduating from FIU with a BS in advertising, I packed my bags to do the cliché millennial thing... Europe trip! (If there's anything worthy of being a cliché over, it's most certainly Europe.)
               <br><br>
               Once I returned, I decided to move cross country and begin working as a catering manager for the LVCC. It was a fast pace, high volume environment where I worked long days, weekends, and learned how to manage clients and employees. The unconventional work schedule, fast pace environment, and my ambitious nature got me a promotion along with the opportunity to work in marketing. I took it, moved to Philadelphia, and became the national marketing manager for Cigna. This is where my problem solving skills became my greatest asset - math does pay off! I wore many hats as a marketing manager and became a Jane of all trades: project manager, presenter, and teacher.
@@ -53,27 +54,60 @@
       </div>
     </div>
     <div class="section" id="resume">
-      <div id="about-top">
-        <h1><strong>Resume</strong></h1>
+      <div id="resume">
+        <h1><strong>Résumé​</strong></h1>
         <p>Dedicated to establishing future collaborations.</p>
-      </div>
+        <a id="resdoc" href="assets/MaxieHernandezResume.pdf" target="_blank">Click to View My Résumé</a>
+      <!-- </div>
       <div id="about-bottom">
-      </div>
+      </div> -->
     </div>
-    <div class="section" id="work">
+    <!-- <div class="section" id="work">
       <div id="about-top">
         <h1><strong>Projects</strong></h1>
         <p>I'm not an art director, graphic designer, nor copy writer; however, I appreciate the work they do and have been known to attempt things in their world from time to time. You can see a few of those attempts here on this page.</p>
       </div>
       <div id="about-bottom">
       </div>
-    </div>
+    </div> !-->
     <div class="section" id="contact">
-      <div id="about-top">
-        <h1><strong>Connect</strong></h1>
-        <p>Don't be shy. Shoot me an email. If you're really feeling daring, call me! Don't know what to say? Here are some topics we can chat about: art, coffee, that new restaurant in Wynwood, or the weather - if you're into small talk. You can even call just to say, "Hi."</p>
-      </div>
-      <div id="about-bottom">
+      <div id="lighten-layer">
+        <div id="contact-top">
+          <h1><strong>Connect</strong></h1>
+          <p>Don't be shy. Shoot me an email. If you're really feeling daring, call me! Don't know what to say? Here are some topics we can chat about: art, coffee, that new restaurant in Wynwood, or the weather - if you're into small talk. You can even call just to say, "Hi."</p>
+        </div>
+        <div id="contact-bottom">
+          <div id="contact-bottom-left">
+            <h1 id="contactheading">Contact Info</h1>
+            <br><br>
+              Phone:<br>
+              (786) 514-8310
+              <br><br><br>
+              ​Email:<br>
+                <a class="contact-links" href="mailto:maxinehernandez@hotmail.com" target="_blank">maxinehernandez@hotmail.com</a>
+                <br><br><br>
+                LinkedIn:<br>
+                <a class="contact-links" href="https://www.linkedin.com/in/maxie" target="_blank">linkedin.com/in/maxie</a>
+                ​<br><br><br>
+                GitHub:<br>
+                <a class="contact-links" href="https://github.com/maxiehernandez" target="_blank">
+                github.com/maxiehernandez</a>
+          </div>
+          <div id="contact-bottom-right">
+          <div id="map"></div>
+            <script>
+              var map;
+              function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                  center: {lat: 25.79, lng: -80.13},
+                  zoom: 10
+                });
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACEWtRX2YmxBzkbe-oDtag9cSwUBaqaZQ&callback=initMap"
+            async defer></script>
+          </div>
+        </div>
       </div>
     </div>
   </body>

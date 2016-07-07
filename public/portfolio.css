@@ -32,26 +32,73 @@ body{
     background-color: rgb(142, 226, 188);
 }
 #resume{
-    background-color: rgb(142, 226, 188);
+    background-color: rgb(169, 169, 169);
+    height: 20vh;
+    text-align: center;
 }
-#work{
-    background-color: rgb(142, 226, 188);
+#resume h1{
+  color: rgb(142, 226, 188);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 6vh;
+  padding-top: 3.5vh;
 }
+#resume p{
+  margin: 0;
+}
+#resdoc{
+  margin-top: 0;
+  color: white;
+  font-size: 2.7vh;
+}
+/*#work{
+    background-color: rgb(142, 226, 188);
+}*/
 #contact{
     background-color: rgb(142, 226, 188);
 }
+.contact-links{
+  color: rgb(142, 226, 188);
+  font-size: 2.5vh;
+}
+#lighten-layer{
+  background:rgba(255,255,255,.85);
+  height: 100vh;
+}
+#contact-top{
+  height: 20vh;
+}
+#contact-bottom{
+  height: 80vh;
+}
+#contact-bottom-left{
+  width: 30vw;
+  height: 70vh;
+  float: left;
+  padding-left: 15vw;
+  padding-top: 8vh;
+  text-align: left;
+}
+#contact-bottom-right{
+  width: 50vw;
+  height: 80vh;
+  float: left;
+}
 
+div h1#contactheading{
+  font-size: 4vh;
+}
 
-  #header-top{
-    height: 40vh;
-  }
-  #header-mid{
-    height: 20vh;
-  }
-  #header-bottom{
-    height: 40vh;
-  }
-a{
+#header-top{
+  height: 40vh;
+}
+#header-mid{
+  height: 20vh;
+}
+#header-bottom{
+  height: 40vh;
+}
+#nutshell{
   color: white;
   text-decoration: none;
   font-size: 2vw;
@@ -66,11 +113,21 @@ li{
     1px 1px 0 #000,
     1px 1px 0 #000;
 }
+li a{
+  text-decoration: underline;
+  color: white;
+  font-size: 2.8vh;
+}
 li a:hover{
   text-decoration: underline;
   color: rgb(142, 226, 188);
 }
-
+#map{
+  height: 50vh;
+  width: 35vw;
+  margin-left: 8vw;
+  margin-top: 13vh;
+}
 ul{
   padding: 0;
 }
@@ -82,16 +139,17 @@ ul{
 }
 
 #header-top-right{
+  margin-top: 10px;
+  padding-left: 30px;
   text-align: left;
-  width: 17vw;
+  width: auto;
   height: 25vh;
   float:left;
 }
 
 #github-logo{
-  padding-top: 1vh;
-  height: 3vw;
-  opacity: .8;
+  opacity: .7;
+  color: white;
 }
 
 #github-logo:hover{
@@ -99,18 +157,16 @@ ul{
 }
 
 #linkedin-logo{
-  padding-top: 1vh;
-  height: 3vw;
-  opacity: .8;
+  color: white;
+  opacity: .7;
 }
 #linkedin-logo:hover{
   opacity: 1;
 }
 
 #email-logo{
-  padding-top: 1vh;
-  height: 3vw;
-  opacity: .8;
+  color: white;
+  opacity: .7;
 }
 #email-logo:hover{
   opacity: 1;
@@ -122,6 +178,7 @@ ul{
 
 }
 #about-bottom{
+  overflow: scroll;
   height: 80vh;
 }
 #about-top h1{
@@ -137,7 +194,6 @@ ul{
 }
 #about-bottom-right{
   width: 45vw;
-  height: 80vh;
   float: left;
   padding-right: 5vw;
   padding-top: 8vh;
