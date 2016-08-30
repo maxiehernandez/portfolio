@@ -1,17 +1,17 @@
 #name{
-  color: white;
+  color: rgb(142, 226, 188);
   margin-top: 0;
   font-size: 9vh;
-  text-shadow:
+  /*text-shadow:
     1px 1px 0 #000,
     1px 1px 0 #000,
     1px 1px 0 #000,
-    1px 1px 0 #000;
+    1px 1px 0 #000;*/
 
 }
 
 #darken{
-  background:rgba(0,0,0,.2);
+  background:rgba(0,0,0,.5);
 }
 .section{
 
@@ -47,10 +47,20 @@ body{
   margin: 0;
 }
 #resdoc{
+  webkit-transition: all 250ms ease-in;
+  moz-transition: all 250ms ease-in;
+  o-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
   margin-top: 0;
   color: white;
   font-size: 2.7vh;
 }
+
+#resdoc:hover{
+  text-decoration: underline;
+  color: rgb(142, 226, 188);
+}
+
 /*#work{
     background-color: rgb(142, 226, 188);
 }*/
@@ -58,9 +68,19 @@ body{
     background-color: rgb(142, 226, 188);
 }
 .contact-links{
+  webkit-transition: all 250ms ease-in;
+  moz-transition: all 250ms ease-in;
+  o-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
   color: rgb(142, 226, 188);
   font-size: 2.5vh;
 }
+
+.contact-links:hover{
+  text-decoration: underline;
+  color: grey;
+}
+
 #lighten-layer{
   background:rgba(255,255,255,.85);
   height: 100vh;
@@ -107,24 +127,33 @@ div h1#contactheading{
   text-decoration: none;
   font-size: 2vw;
 }
+#nutshell:hover{
+  text-decoration: underline;
+  color: grey;
+}
+
 li{
   display: inline;
   padding-right: .5vw;
   padding-left: .5vw;
-  text-shadow:
+  /*text-shadow:
     1px 1px 0 #000,
     1px 1px 0 #000,
     1px 1px 0 #000,
-    1px 1px 0 #000;
+    1px 1px 0 #000;*/
 }
 li a{
+  webkit-transition: all 250ms ease-in;
+  moz-transition: all 250ms ease-in;
+  o-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
   text-decoration: underline;
-  color: white;
+  color: rgb(142, 226, 188);
   font-size: 2.8vh;
 }
 li a:hover{
   text-decoration: underline;
-  color: rgb(142, 226, 188);
+  color: white;
 }
 #map{
   height: 50vh;
