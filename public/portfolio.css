@@ -23,7 +23,7 @@ body{
 }
 #header{
   text-align: center;
-  background-image: url("http://cdn2.editmysite.com/images/editor/theme-background/stock/Table-Conversation.jpg");
+  background-image: url("work.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -99,6 +99,10 @@ div h1#contactheading{
   height: 40vh;
 }
 #nutshell{
+  webkit-transition: all 250ms ease-in;
+  moz-transition: all 250ms ease-in;
+  o-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
   color: white;
   text-decoration: none;
   font-size: 2vw;
